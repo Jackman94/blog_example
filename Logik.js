@@ -3,7 +3,7 @@
 
 var model = {
     user: "user1",
-    courses:[{name: "html Css",    passed:true},
+    courses:[{name: "html Css 22222222",    passed:true},
             {name: "javascript",  passed:true},
             {name: "advansed",    passed:true},
             {name:"jqury",        passed:false},
@@ -14,7 +14,6 @@ var listApp = angular.module("CourseApp",[]);
 
 listApp.controller("courseCtrl" , function ($scope) {
     $scope.list = model;
-
 
     $scope.addNewCourse = function() {
         $scope.list.courses.push({
